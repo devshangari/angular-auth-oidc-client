@@ -1,0 +1,19 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+// Public classes.
+export { AuthWellKnownEndpoints } from './models/auth.well-known-endpoints';
+export { AuthorizationResult } from './models/authorization-result';
+export { AuthorizationState } from './models/authorization-state.enum';
+export { JwtKeys, JwtKey } from './models/jwtkeys';
+export { ValidateStateResult } from './models/validate-state-result.model';
+export { ValidationResult } from './models/validation-result.enum';
+export { OpenIDImplicitFlowConfiguration, AuthConfiguration } from './modules/auth.configuration';
+export { AuthModule } from './modules/auth.module';
+export { OidcConfigService } from './services/oidc.security.config.service';
+export { OidcSecurityService } from './services/oidc.security.service';
+export { OidcSecurityStorage, BrowserStorage } from './services/oidc.security.storage';
+export { OidcSecurityValidation } from './services/oidc.security.validation';
+export { TokenHelperService } from './services/oidc-token-helper.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW5ndWxhci1hdXRoLW9pZGMtY2xpZW50LmpzIiwic291cmNlUm9vdCI6Im5nOi8vYW5ndWxhci1hdXRoLW9pZGMtY2xpZW50LyIsInNvdXJjZXMiOlsibGliL2FuZ3VsYXItYXV0aC1vaWRjLWNsaWVudC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7OztBQUVBLHVDQUFjLG9DQUFvQyxDQUFDO0FBQ25ELG9DQUFjLCtCQUErQixDQUFDO0FBQzlDLG1DQUFjLG1DQUFtQyxDQUFDO0FBQ2xELGdDQUFjLGtCQUFrQixDQUFDO0FBQ2pDLG9DQUFjLHNDQUFzQyxDQUFDO0FBQ3JELGlDQUFjLGlDQUFpQyxDQUFDO0FBQ2hELG1FQUFjLDhCQUE4QixDQUFDO0FBQzdDLDJCQUFjLHVCQUF1QixDQUFDO0FBQ3RDLGtDQUFjLHlDQUF5QyxDQUFDO0FBQ3hELG9DQUFjLGtDQUFrQyxDQUFDO0FBQ2pELG9EQUFjLGtDQUFrQyxDQUFDO0FBQ2pELHVDQUFjLHFDQUFxQyxDQUFDO0FBQ3BELG1DQUFjLHNDQUFzQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLy8gUHVibGljIGNsYXNzZXMuXHJcblxyXG5leHBvcnQgKiBmcm9tICcuL21vZGVscy9hdXRoLndlbGwta25vd24tZW5kcG9pbnRzJztcclxuZXhwb3J0ICogZnJvbSAnLi9tb2RlbHMvYXV0aG9yaXphdGlvbi1yZXN1bHQnO1xyXG5leHBvcnQgKiBmcm9tICcuL21vZGVscy9hdXRob3JpemF0aW9uLXN0YXRlLmVudW0nO1xyXG5leHBvcnQgKiBmcm9tICcuL21vZGVscy9qd3RrZXlzJztcclxuZXhwb3J0ICogZnJvbSAnLi9tb2RlbHMvdmFsaWRhdGUtc3RhdGUtcmVzdWx0Lm1vZGVsJztcclxuZXhwb3J0ICogZnJvbSAnLi9tb2RlbHMvdmFsaWRhdGlvbi1yZXN1bHQuZW51bSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbW9kdWxlcy9hdXRoLmNvbmZpZ3VyYXRpb24nO1xyXG5leHBvcnQgKiBmcm9tICcuL21vZHVsZXMvYXV0aC5tb2R1bGUnO1xyXG5leHBvcnQgKiBmcm9tICcuL3NlcnZpY2VzL29pZGMuc2VjdXJpdHkuY29uZmlnLnNlcnZpY2UnO1xyXG5leHBvcnQgKiBmcm9tICcuL3NlcnZpY2VzL29pZGMuc2VjdXJpdHkuc2VydmljZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vc2VydmljZXMvb2lkYy5zZWN1cml0eS5zdG9yYWdlJztcclxuZXhwb3J0ICogZnJvbSAnLi9zZXJ2aWNlcy9vaWRjLnNlY3VyaXR5LnZhbGlkYXRpb24nO1xyXG5leHBvcnQgKiBmcm9tICcuL3NlcnZpY2VzL29pZGMtdG9rZW4taGVscGVyLnNlcnZpY2UnO1xyXG4iXX0=

@@ -1,0 +1,33 @@
+import { NgZone } from '@angular/core';
+import { Observable } from 'rxjs';
+import { AuthWellKnownEndpoints } from '../models/auth.well-known-endpoints';
+import { AuthConfiguration } from '../modules/auth.configuration';
+import { IFrameService } from './existing-iframe.service';
+import { LoggerService } from './oidc.logger.service';
+import { OidcSecurityCommon } from './oidc.security.common';
+export declare class OidcSecurityCheckSession {
+    private authConfiguration;
+    private oidcSecurityCommon;
+    private loggerService;
+    private iFrameService;
+    private zone;
+    private sessionIframe;
+    private iframeMessageEvent;
+    private authWellKnownEndpoints;
+    private scheduledHeartBeat;
+    private lastIFrameRefresh;
+    private outstandingMessages;
+    private heartBeatInterval;
+    private iframeRefreshInterval;
+    private _onCheckSessionChanged;
+    readonly onCheckSessionChanged: Observable<any>;
+    constructor(authConfiguration: AuthConfiguration, oidcSecurityCommon: OidcSecurityCommon, loggerService: LoggerService, iFrameService: IFrameService, zone: NgZone);
+    setupModule(authWellKnownEndpoints: AuthWellKnownEndpoints): void;
+    private doesSessionExist;
+    private init;
+    startCheckingSession(clientId: string): void;
+    stopCheckingSession(): void;
+    private pollServerSession;
+    private clearScheduledHeartBeat;
+    private messageHandler;
+}
